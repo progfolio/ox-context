@@ -30,7 +30,7 @@
 BACKEND is the symbol name of an export backend.
 FUNCTIONS is a list of functions, each called with export info.
 Results are cached in the symbol `ox-context' for the duration of the export.
-An export snippet is a string or a list of the form (SNIPPET . PROPS...).
+An export snippet is a string or a list of the form (STRING . PROPS...).
 PROPS is a metatdata plist for use with export filters
 If a function returns a snippet it is included in the export preamble."
   :type 'alist
